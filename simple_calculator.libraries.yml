@@ -1,0 +1,4 @@
+show_result:
+  css:
+    component:
+      css/simple_calculator.css: {}

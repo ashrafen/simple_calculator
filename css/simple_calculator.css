@@ -1,0 +1,13 @@
+.item-result {
+  font-weight: 600;
+}
+.formula-container:hover .item-hide {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+.item-hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}

@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function simple_calculator_theme() {
+  return [
+    'simple_calculator' => [
+      'variables' => [
+        'formula' => '',
+        'result' => '',
+      ],
+      'template' => 'simple-calculator',
+    ],
+  ];
+}

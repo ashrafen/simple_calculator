@@ -1,0 +1,5 @@
+name: 'Simple Calculator'
+type: module
+description: 'A simple caluclator that can compute simple mathematical operations using the most basic operators (+, -, *, /)'
+core: 8.x
+package: 'custom'
