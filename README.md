@@ -34,10 +34,17 @@ The formatter will display the expression and on hover the result will be displa
 ## Unit testing
 
 Run test cases for this module using `phpunit` (tested with phpunit 6.5)
+If you are using Amazee Drupal setup you can test it by running this command: 
 
 ```
 cd web
 ../vendor/bin/phpunit -c core/phpunit.xml.dist modules/custom/simple_calculator/tests/src/Calculator/CalculatorTest.php
+```
+Or you can you can test it by running:
+
+```
+cd vendor/bin/
+phpunit -c core/phpunit.xml.dist modules/custom/simple_calculator/tests/src/Calculator/CalculatorTest.php
 ```
 
 You should get 10 tests and 10 assertions
