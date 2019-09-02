@@ -18,7 +18,8 @@ Checkout or download from github, install and enable the module in your site.
 ```bash
 cd modules/custom
 git clone git@github.com:ashrafen/simple_calculator.git
-drush en simple_calculator``
+drush en simple_calculator
+```
 
 ## Usage
 
